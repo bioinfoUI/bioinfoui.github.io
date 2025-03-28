@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The BioinfoUI - Gateway to Bioinformatics Excellence</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background: #0d1117; color: white; text-align: center; }
+        .hero {
+            height: 100vh;
+            display: flex; flex-direction: column;
+            justify-content: center; align-items: center;
+            background: url('https://source.unsplash.com/1600x900/?dna,bioinformatics') center/cover;
+            animation: fadeIn 2s;
+            position: relative;
+        }
+        .overlay { 
+            position: absolute; 
+            top: 0; left: 0; width: 100%; height: 100%; 
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .hero-content { position: relative; z-index: 2; }
+        .hero h1 { font-size: 3.5rem; }
+        .hero p { font-size: 1.3rem; max-width: 700px; margin-top: 10px; }
+        .btn { margin-top: 20px; padding: 12px 25px; font-size: 1.2rem; color: white; background: #ff6b6b; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; }
+        .btn:hover { background: #ff3b3b; }
+        .section { padding: 80px 20px; }
+        .features {
+            display: flex; justify-content: space-around;
+            flex-wrap: wrap; max-width: 1000px; margin: 0 auto;
+        }
+        .feature-card {
+            background: #1a1a1a; padding: 20px; margin: 15px;
+            width: 280px; border-radius: 10px; text-align: center;
+        }
+        .contact { background: #161b22; padding: 50px; }
+        .contact a { color: #ff6b6b; text-decoration: none; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>The BioinfoUI</h1>
+            <p>Gateway to Bioinformatics Excellence</p>
+            <button class="btn" onclick="window.location.href='http://tally.so/r/npvvaB'">Register Now</button>
+        </div>
+    </div>
+    <div class="section">
+        <h2>About the Program</h2>
+        <p>Apply for the 2nd iteration of our expert-led 6-month training on genomics/bioinformatics theories, concepts, and tools.</p>
+        <p>Interested University of Ibadan students are welcome to apply before the deadline: <strong>April 27, 2025</strong>.</p>
+    </div>
+    <div class="section features">
+        <div class="feature-card">
+            <h3>Expert Instructors</h3>
+            <p>Learn from leading bioinformatics scientists.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Interactive Sessions</h3>
+            <p>Live coding and real-world case studies.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Certification</h3>
+            <p>Get an industry-recognized certificate.</p>
+        </div>
+    </div>
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:bioinfoui@gmail.com">bioinfoui@gmail.com</a></p>
+        <p>Follow us on social media:</p>
+        <p><a href="https://x.com/BioinfoUI" target="_blank">Twitter/X</a> | <a href="https://www.linkedin.com/company/bioinfo-ui/about/" target="_blank">LinkedIn</a></p>
+    </div>
+</body>
+</html>
